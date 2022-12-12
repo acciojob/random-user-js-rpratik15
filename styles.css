@@ -1,2 +1,11 @@
+.card
+{
+    margin: 50px auto;
+    width: auto;
+    height: 60vh;
 
-/* Your CSS Code here. */
+}
+.card-title
+{
+    text-align: center;
+}
