@@ -9,3 +9,9 @@
 {
     text-align: center;
 }
+
+.info,.new-user
+{
+    text-align: center;
+    align-items: center;
+}

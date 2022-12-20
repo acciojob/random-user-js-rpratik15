@@ -18,12 +18,17 @@
 		<img src="..." class="card-img-top" id="userimg" alt="user">
 
 	  </div>
-	  <div>
-		<h6>User info</h6>
+	  <div class="info">
+		<h6 id="user-info"></h6>
+		<br>
 		<button type="button" class="btn btn-primary" onclick="userInfo('1')">Age</button>
 		<button type="button" class="btn btn-primary" onclick="userInfo('2')">Email</button>
 		<button type="button" class="btn btn-primary" onclick="userInfo('3')">Phone</button>
 	  </div>
+	  <br>
+	  <div class="new-user">
+		<button  id="getUser" type="button" class="btn btn-dark" onclick="getNewUser()">Get New User</button> 	
+	</div>
     <script type="text/javascript" src="./script.js">
 
 </script>
